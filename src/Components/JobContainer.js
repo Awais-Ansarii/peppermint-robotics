@@ -9,16 +9,16 @@ const JobContainer = ({ jobData }) => {
       <div >
         <p className="text-left">Skills Required : </p>
         <ul >
-          {skills.map((skill) => {
-            return <li className="p-2"> ◉ {skill}</li>;
+          {skills.map((skill, i) => {
+            return <li className="p-2" key={i}> ◉ {skill}</li>;
           })}
         </ul>
       </div>
 
       <div >
         <ul>
-          {req.map((requiremnt) => {
-            return (<li className="p-2"> ➡ { requiremnt}</li>)
+          {req.map((requiremnt, j) => {
+            return (<li className="p-2" key={j}> ➡ { requiremnt}</li>)
           })}
         </ul>
       </div>
