@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About'
 import Core from './Core'
 import Motivate from './Motivate'
+import HiringContainer from './HiringContainer'
 
 const Body = () => {
   return (
@@ -9,6 +10,7 @@ const Body = () => {
       <Motivate/>
     <Core/>
       <About/>
+      <HiringContainer/>
     </div>
   )
 }
