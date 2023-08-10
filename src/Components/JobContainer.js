@@ -3,7 +3,7 @@ import React from "react";
 const JobContainer = ({ jobData }) => {
   const { title, exp, skills, req } = jobData;
   return (
-    <div className="flex flex-col m-2 p-5 text-xl text-black  bg-gray-200 shadow-lg rounded-lg w-[350px] h-[35rem] justify-center ">
+    <div className="flex flex-col m-2 p-5 text-xl text-black  bg-gray-200 shadow-lg rounded-lg w-[350px] h-[32rem] justify-center ">
       <h2 className="font-semibold text-center">{title}</h2>
       <h3 className="p-2">Experience : {exp}</h3>
       <div >

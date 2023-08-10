@@ -6,7 +6,7 @@ import HiringContainer from './HiringContainer'
 
 const Body = () => {
   return (
-    <div className='  flex justify-center items-center flex-col mt-10'>
+    <div className='  flex flex-wrap justify-center items-center flex-col mt-10 '>
       <Motivate/>
     <Core/>
       <About/>

@@ -3,9 +3,9 @@ import React from "react";
 const Core = () => {
   return (
     <div>
-      <div className="flex m-5 p-3 items-center justify-center gap-10">
+      <div className="flex flex-wrap m-5 p-3 items-center justify-center gap-10">
 
-        <div className="w-[40%] flex flex-col gap-10 space-y-5">
+        <div className="w-[40%] flex flex-wrap flex-col gap-10 space-y-5">
           <h2 className="font-bold text-3xl text-center">
             Creating A Full Stack Service Robotics Solution
           </h2>
@@ -18,9 +18,9 @@ const Core = () => {
             delivers the most efficient autonomous solutions for out clients.
           </p>
         </div>
-        <iframe
-          width="700"
-          height="400"
+        <iframe className="rounded-lg shadow-lg"
+          width="600"
+          height="350"
           src="https://www.youtube.com/embed/fJzUZ7eA97U"
           title="Peppermint Robots | Scrubber Dryer | Housekeeping Robots"
           frameborder="0"
